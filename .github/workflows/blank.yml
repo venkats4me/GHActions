@@ -1,0 +1,8 @@
+name: "GitHub Action Demo triggered by"
+on: workflow_dispatch
+jobs:
+  action-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Using step
+        run: echo "Welcome to GitHub Actions Demo"
